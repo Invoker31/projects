@@ -1,0 +1,151 @@
+#title{
+    background-color: #ff4c68;
+    color: #fff;
+    
+}
+.download{
+    margin: 5% 3% 5% 0;
+}
+.title-img{
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+.fab{
+    padding-right:7px;
+}
+body{
+    font-family: 'Montserrat';
+}
+.container-fluid{
+    padding: 3% 17%;
+}
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+h1{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-family: 'Montserrat-Black';
+}
+#features{
+    padding:5% 17%;
+    background-color: #fff;
+   
+}
+.feature-box{
+    text-align:center;
+    padding : 5%;
+}
+h3{
+    font-family: "Serif-Bold";
+}
+p{
+    color :grey;
+}
+.icon{
+    color: rgb(247, 137, 47);
+    margin-bottom: 1rem;
+    transition: color 0.5s;
+}
+.icon:hover{
+    color: #ff4c68;
+}
+h2{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#testimonials{
+    
+    background-color:rgb(247, 137, 47);
+    text-align: center;
+    color: #fff;
+}
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 2%;
+}
+#press{
+    background-color:rgb(247, 137, 47) ;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.press-logo{
+    width: 20%;
+    padding-left:5% ;
+}
+.carousel-item{
+    padding:  10% 18%;
+}
+#pricing{
+    padding: 7% 10%;
+    text-align: center;
+}
+.gap-2{
+    padding: 3%;
+}
+#cta{
+    text-align:center;
+    background-color:#ff4c68;
+    padding:7% 22%;
+    color:white;
+}
+.cta-heading{
+    font-family:"Montserrat-Black";
+    line-height:1.5;
+    font-size :3.5rem;
+}
+#footer{
+    text-align: center;
+    padding: 3% 15%;
+}
+.social-icon{
+    margin: 20px 10px;
+    font-size: 20px;
+}
+@media (max-width : 990px){
+    #title{
+        text-align: center;
+    }
+    .title-img{
+        transform: rotate(0);
+        width: 45%;
+    }
+    .navbar-nav{
+        text-align: left;
+    }
+    .top-1 h1{
+        font-size: 2rem;
+    }
+    .top-1{
+        padding: -1% 9% 8%;
+    }
+    .mobile-h2{
+        font-size: 1.5rem;
+    }
+    
+    
+    .carousel-item{
+        padding: 10px 25px;
+        
+    }
+    #cta{
+        padding:5% 10%;
+    }
+    .cta-heading{
+        font-size: 1.8rem;
+    }
+}
